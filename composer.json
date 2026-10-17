@@ -1,0 +1,30 @@
+{
+    "name": "jivtroy/laravel-db-cache",
+    "description": "Laravel database query caching.",
+    "keywords": ["laravel", "model", "cache", "database", "db", "sql", "orm", "eloquent", "query"],
+    "type": "library",
+    "homepage": "https://github.com/jivtroy/laravel-db-cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiv Troy",
+            "homepage": "https://github.com/jivtroy",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jivtroy/laravel-db-cache/issues",
+        "source": "https://github.com/jivtroy/laravel-db-cache"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelDBCache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "illuminate/database": "^12.0",
+        "illuminate/support": "^12.0",
+        "illuminate/cache": "^12.0"
+    }
+}
